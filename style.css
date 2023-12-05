@@ -21,6 +21,7 @@
 
 main {
   display: flex;
+  
 }
 
 .login {
@@ -32,7 +33,13 @@ main {
   max-width: 500px;
   min-height: 100vh;
   padding: clamp(35px, 8%, 70px);
+  background-color: var(--whitesmoke);
+  position: relative;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+
 }
+
+  
 
 .wrapper {
   width: 100%;
@@ -198,8 +205,12 @@ main {
 
 .wallpaper {
   width: 100%;
-  background-image: url('./images/wallpaper.jpg');
+  background-image: url('./images/background.png');
   background-size: cover;
   background-position: center;
   flex: 1;
+}
+
+.titulo{
+  padding: 80px;
 }
